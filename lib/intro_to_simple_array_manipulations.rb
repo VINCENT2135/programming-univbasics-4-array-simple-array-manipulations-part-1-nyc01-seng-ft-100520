@@ -10,15 +10,15 @@ def using_unshift(array, string)
   array.unshift(string)
 end  
 
-def pop_with_args (array)
-  array.pop(array)
+def pop_with_args (array,index)
+  array.pop(index)
 end  
 
-def using_shift(y)
+def using_shift()
   array.shift()
 end  
   
-def using_shift(array, string)
-  array.shift(2)
+def using_shift(array, index)
+  array.shift(index)
 end  
   
