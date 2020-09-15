@@ -11,11 +11,11 @@ def using_unshift(array, string)
 end  
 
 def using_pop(array)
-  array.pop(2)
+  array.pop(array)
 end  
 
-def using_shift(array, string)
-  array.shift(string)
+def using_shift(y)
+  array.shift()
 end  
   
 def using_shift(array, string)
