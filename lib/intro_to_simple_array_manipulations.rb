@@ -18,7 +18,7 @@ def using_shift(array)
   array.shift()
 end  
   
-def using_shift(array, index)
+def using_unshift(array, index)
   array.shift(index)
 end  
   
